@@ -1,9 +1,18 @@
-```
-git config
+Iniciar o projeto Django
 
-git init
+```
+python -m venv venv
+./venv/Scripts/activate
+pip install django
+django-admin startproject project .
+python manage.py
+
+Configurar o git
+
+
 git config --global user.name 'Lucas Fuzinaga'
 git config --global user.email 'lucasfuzinagacat@gmail.com'
+git config --global init.defaultBranch main 
 gitignore 
 
 git log 
